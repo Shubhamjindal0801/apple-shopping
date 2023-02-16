@@ -1,0 +1,108 @@
+body{
+  margin:0;
+  background-color: #e5e5f4;
+
+}
+
+.nav-bar{
+  background-color: #e5e5f4;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right:0;
+  top:0;
+  left:0;
+  border-bottom-right-radius:35px;
+  border-bottom-left-radius:35px;
+}
+.fluid{
+  margin-left:50px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fluid img{
+  margin-top: 10px;
+}
+.fluid div{
+  margin-top:13px;
+}
+.fluid p:hover{
+  color:red;
+  font-size: large;
+  border:none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 40px red;
+}
+.fluid div:hover{
+  font-size: xx-large;
+  color:red;
+  box-shadow: 4px 4px 40px red;
+}
+.fluid img:hover{
+  width:40px;
+  box-shadow: 4px 4px 40px red;
+}
+.wh{
+    background-color:white;
+    height:15px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top:60px;
+    font-size: large;
+    font-weight: 600;
+}
+.quote{
+position: relative;
+right:165px;
+font-size: 48px;
+margin: 0;
+font-weight: 600;
+font-style: normal;
+color:#6e6e73;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quote-box{
+  margin-top: 80px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.q{
+  position: relative;
+  right:300px;
+  bottom: 10px;
+}
+.quote-box span{
+  color: black;
+}
+.product-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:100px;
+    justify-content: space-evenly;
+}
+.item1 img{
+  height:70px;
+}
+.item1 p{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+  justify-content: center;
+  
+}
+.item1 p:hover{
+  text-decoration: underline;
+}
+.item1 img:hover{
+  cursor: pointer;
+  height:100px;
+  width:100px;
+  box-shadow: 10px 10px 20px red;
+}
